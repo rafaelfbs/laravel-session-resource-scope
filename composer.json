@@ -1,0 +1,24 @@
+{
+    "name": "rferrari/session-resource-scope",
+    "description": "Scope models by session token",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rafael Ferrari",
+            "email": "rafael.ferrari.bs@gmail.com"
+        }
+    ],
+    "require": {
+        "laravel/framework": "^5.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.5",
+        "mockery/mockery": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Illuminate\\": "src/Illuminate/"
+        }
+    }
+}
